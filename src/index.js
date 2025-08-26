@@ -7,3 +7,13 @@ heartIcon.forEach(heart => {
         heardIncrease.innerHTML=count
     })
 })
+
+let callbtn=document.querySelectorAll(".callbtn");
+callbtn.forEach(addcall=>{
+    addcall.addEventListener("click",function(){
+        let station=addcall.parentElement.parentElement.querySelector(".stationName").innerText;
+        let callNum=addcall.parentElement.parentElement.querySelector(".callNum").innerText;
+        alert("Calling "+station+" "+callNum)       
+        
+    })
+})
