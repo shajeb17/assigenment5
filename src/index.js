@@ -25,7 +25,7 @@ callbtn.forEach(addcall => {
         let callNum = addcall.parentElement.parentElement.querySelector(".callNum").innerText;
         let addTime = new Date()
         let addCurrent = addTime.getSeconds() + ":" + addTime.getMinutes() + ":" + addTime.getHours()
-        alert("Calling " + station + " " + callNum)
+        alert("📞 Calling " + station + " " + callNum)
         let div = document.createElement("div")
         div.classList.add("divAdd")
         let cards = `<div class="flex justify-between items-center  p-[11px] rounded-[10px] bg-[#f6f1f1]">
