@@ -23,6 +23,10 @@ btn.addEventListener("click",function(){
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 answer=> when i have multiple child element. I can use the parent of a child element to access and modify the child element.; 
+Why it is useful:
+Handles dynamic elements added later.
+Improves performance by reducing multiple listeners.
+Makes code cleaner and easier to maintain.
 
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
